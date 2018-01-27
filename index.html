@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Portfolio</title>
+    <!-- CSS file -->
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+
+<!-- NAV BAR -->
+    <nav>
+      <div class="nav-wrapper blue darken-2">
+        <a href="#" class="brand-logo">Jean Tzintzun</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="Index.html">About</a></li>
+          <li><a class=" modal-trigger" href="#portfolio">Portfolio</a></li>
+          <li><a class=" modal-trigger" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+<!-- MAIN CONTERNER -->
+
+    <div class="container main">
+      <div class="row"></div>
+
+      <!-- Modal Structure Contacts-->
+      <div id="contact" class="modal">
+        <div class="modal-content">
+          <div class="col12 borderBottom"><h4 class="blue-text text-darken-4">Contact</h4></div>
+            <br>
+            <div class="row">
+
+                <div class="input-field col s12 m5 l5">
+                  <input id="name" type="text">
+                  <label class="active" for="name">Name</label>
+                </div>
+
+                <div class="col s12 m1 l1"></div>
+
+                <div class="input-field col s12 m5 l5">
+                  <input id="email" type="email" class="validate">
+                  <label for="email" data-error="wrong" data-success="right">Email</label>
+                </div>
+
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Message</label>
+                    </div>
+                  </div>
+                </form>
+
+            </div>
+
+        </div>
+        <div class="modal-footer">
+           <a href="#!"class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">send</i></a>
+        </div>
+      </div>
+
+<!-- Modal Structure Porfolio-->
+
+      <div id="portfolio" class="modal">
+        <div class="modal-content">
+
+          <div class="col s12 m5 l8">
+
+            <div class="col12 borderBottom">
+              <h4 class="blue-text text-darken-4">Portfolio</h4>
+            </div>
+            <br><br>
+<!-- ROW-1 -->
+            <div class="row">
+
+              <div class="col  m1 l1"></div>
+              <div class="col s12 m5 l5 hm">
+                <a href="https://jtzintzun.github.io/Hangman-Game/"><img class=" border responsive-img" src="assets/images/hangman.png">
+                <h6><span>Hangman Game</span></h6></a>
+              </div>
+
+              <div class="col s12 m1 l1"></div>
+
+              <div class="col s12 m5 l5">
+                <a href="https://jtzintzun.github.io/week-4-game/"><img class=" border responsive-img" src="assets/images/RPG.png">
+                  <h6><span>RPG Game</span></h6> </a>
+              </div>
+              <div class="col  m1 l1"></div>
+            </div>
+<!-- ROW-2 -->
+            <div class="row">
+              <div class="col  m1 l1"></div>
+              <div class="col s12 m5 l5 hm">
+                <a href="https://jtzintzun.github.io/TriviaGame/"><img class="border responsive-img" src="assets/images/Trivia.png">
+                <h6><span>Trivia Game</span></h6>
+              </div>
+
+              <div class="col s12 m1 l1"></div>
+
+              <div class="col s12 m5 l5">
+                <a href="https://jtzintzun.github.io/GifTastic/"><img class="border responsive-img" src="assets/images/GifTastic.png">
+                <h6><span>GifTastic</span></h6>
+              </div>
+              <div class="col  m1 l1"></div>
+            </div>
+
+<!-- ROW-3 -->
+
+            <div class="row">
+              <div class="col  m1 l1"></div>
+              <div class="col s12 m5 l5 hm">
+                <a href="https://jtzintzun.github.io/trainSchedule/"><img class="border responsive-img" src="assets/images/Train.png">
+                <h6><span>Train Time</span></h6>
+              </div>
+
+              <div class="col s12 m1 l1"></div>
+
+              <div class="col s12 m5 l5">
+                <a href="https://amanuelmehreteab7.github.io/HotMaps/"><img class="border responsive-img" src="assets/images/Maps.png">
+                <h6><span>HotMaps</span></h6>
+              </div>
+              <div class="col  m1 l1"></div>
+            </div>
+
+          </div>
+
+
+        </div>
+<!-- Modal Footer -->
+
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close btn-large waves-effect waves-light red"><i class="material-icons">exit_to_app</i></a>
+        </div>
+      </div>
+
+<!-- LEFT PANEL -->
+      <div class="row">
+        <div class="col s12 m5 l7 white border">
+          <div class="col12 borderBottom">
+            <h4 class="blue-text text-darken-4">About Me</h4>
+          </div>
+          <div >
+          <img class="float-image resposive" src="assets/images/jean.jpg"> <p>Experienced IT professional with a track record of saving employers’ time and money by building relationships and increasing IT system reliability ready to continue career progression into operations management. Broad-based knowledge of a variety of software, hardware, and IT infrastructure platforms. Great ability to turn that knowledge into workable solutions for employers, colleagues, and end-users to provide concrete benefits and solve problems.</p>
+          </div>
+        </div>
+
+<!-- RIGHT PANEL -->
+        <div class="col s12 m1 l1"></div>
+        <div class="col s12 m4 l4 white border">
+          <div class="col12 center borderBottom">
+            <h5 class="blue-text text-darken-4">Connect with Me</h5>
+          </div>
+          <div class="row">
+            <div class="col s4 m4 l4"><a href="https://github.com/jtzintzun"><img class="resposive center-image" alt="github" src="assets/images/github.png"></div>
+            <div class="col s4 m4 l4"><a href="https://www.linkedin.com/in/jtzintzun/"><img class="resposive center-image" alt="Linkedin" src="assets/images/Linkedin.png"></div>
+            <div class="col s4 m4 l4"><a href="https://stackoverflow.com/users/8914645/jean-tzintzun"><img class="resposive center-image" src="assets/images/Stack.png"></div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+<!-- FOOTER -->
+
+    <footer class="page-footer blue center darken-4 borderTop">
+             <div class="footer-copyright">
+               <div class="container">
+               © 2018 Copyright Jean Tzintzun
+               </div>
+             </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+  </body>
+</html>
+
+<script>
+$(document).ready(function(){
+// the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+$('.modal').modal();
+});
+</script>

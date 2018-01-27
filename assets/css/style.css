@@ -1,0 +1,75 @@
+
+/* Sticky footer */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: url("../images/background.jpg");
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.border{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #424242;
+  border-width:thin;
+}
+
+.float-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-top: auto;
+  border-radius: 5px;
+}
+
+.center-image{
+  float: left;
+  margin-left: 20%;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 15%;
+}
+.center-imagePortfolio{
+  margin-left: 20%;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 15%;
+}
+
+.borderBottom{
+  border-bottom: solid;
+  border-color: #bbdefb;
+  border-width:medium;
+}
+
+.borderTop{
+  border-top: solid;
+  border-color: darkblue;
+  border-width:medium;
+}
+
+
+h6 span {
+
+  background: #1565c0;
+  opacity:0.9;
+  Color: #ffffff;
+  font-size: 28;
+  text-align: center;
+  position: relative;
+  top: -60px;
+  width: 66%;
+  max-width: 200px;
+  height: 30px;
+  padding-top: 10px;
+  margin-left:30px;
+  margin-bottom: 50px;
+  float: left;
+}
